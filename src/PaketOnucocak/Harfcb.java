@@ -32,13 +32,14 @@
 //metot2
 package PaketOnucocak;
 import java.util.Scanner;
-    public class Harfcb {        public static void main(String[] args) {
+    public class Harfcb {
+        public static void main(String[] args) {
             Scanner input= new Scanner(System.in);
             System.out.println("lütfen bir kelime giriniz");
             String klm= input.next();
             String kelime= klm.toLowerCase();
             String sesli="aeıioöuü";
-            String sessiz="zyvtşsrpnrmlkhjğgdçcb";
+            String sessiz="zywvtşsrpnrmlkhjğgdçcb";
             String sesliler="";
             String sessizler="";
             String sessizilk="";
